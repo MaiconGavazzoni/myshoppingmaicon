@@ -1,5 +1,21 @@
+##no VsCode ##
+Funciona
+yarn react-native run-android --port 8082
+
 ## no terminal ##
+?não funciona
 yarn start
 
 ## no VsCode ##
+?não funciona
 yarn run android
+
+## Listar projetos ##
+firebase projects:list
+
+## Startar o projeto na CLI ##
+firebase emulators:start --only firestore --project myshopping-95460
+
+## Gerar a chave do app para o certificado de assinatura de depuração SHA-1 ##
+cd android
+./gradlew signingReport

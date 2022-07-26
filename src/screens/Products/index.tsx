@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 
 import { ShoppingList } from '../../components/ShoppingList';
@@ -7,6 +7,12 @@ import { Header } from '../../components/Header';
 import { Container } from './styles';
 
 export function Products() {
+
+
+  useEffect(() => {
+    console.log('Products');
+  }, []);
+
   return (
     <Container>
       <Header title="Lista de compras" />

@@ -1,0 +1,5 @@
+## no terminal ##
+yarn start
+
+## no VsCode ##
+yarn run android

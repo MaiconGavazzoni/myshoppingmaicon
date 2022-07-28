@@ -19,3 +19,6 @@ firebase emulators:start --only firestore --project myshopping-95460
 ## Gerar a chave do app para o certificado de assinatura de depuração SHA-1 ##
 cd android
 ./gradlew signingReport
+
+## Firebase Emmulator ##
+firebase emulators:start --only firestore --project myshopping-95460

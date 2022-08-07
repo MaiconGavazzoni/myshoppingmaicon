@@ -22,3 +22,8 @@ cd android
 
 ## Firebase Emmulator ##
 firebase emulators:start --only firestore --project myshopping-95460
+
+
+##Tentativas de arrumar o erro ##
+https://rnfirebase.io/storage/usage/installation/android
+https://firebase.google.com/docs/storage/android/start?hl=pt-br
